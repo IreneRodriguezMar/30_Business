@@ -1,5 +1,18 @@
-.imgheader{
+.imgheader{/*imagen el el header*/
 	background-image: url(../image/large.jpg);
+	height: 700px;
+	background-size:100% 100%;
+}
+.logo{
+	wii
+}
+.imgback2{
+	background-image: url(../image/sec-2.jpg);
+	height: 700px;
+	background-size:100% 100%;
+}
+.backbanner{
+	background-image: url(../image/banner.jpg);
 	height: 700px;
 	background-size:100% 100%;
 }
