@@ -3,10 +3,33 @@
 	height: 700px;
 	background-size:100% 100%;
 }
-.logo{
-	width: 10%;
-	height: 10%;
+.logo{/*logo en el nav*/
+	width: 50%;
+	height: 50%;
 }
+.blanco{/*color blanco*/
+	color:white; 
+}
+.opacidadnegra{
+	background-color: rgba(0,0,0,0.6);
+	height: 700px;
+	width: 100%;
+}
+.opacidadazul{
+	background-color: rgba(0,0,255, 0.3);
+	height: auto;
+	width: 100%;
+}
+.titulo1{/*tituloheader*/
+	font-size: 50px;
+}
+.martop{/*margen arriba*/
+	margin-top: 8%;
+}
+
+button:hover{/*hover para botones*/
+	background-color: aqua;
+}	
 .imgback2{
 	background-image: url(../image/sec-2.jpg);
 	height: 700px;
