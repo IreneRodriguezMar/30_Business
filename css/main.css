@@ -1,42 +1,88 @@
-.imgheader{/*imagen el el header*/
-	background-image: url(../image/large.jpg);
-	height: 700px;
-	background-size:100% 100%;
+/*GENERAL*/
+.pt-20{
+    padding-top: 20%;
 }
-.logo{/*logo en el nav*/
-	width: 50%;
-	height: 50%;
+.line{
+    border-bottom: .1em solid lightgray;
 }
-.blanco{/*color blanco*/
-	color:white; 
+.btn-lg{
+    border: .1em solid;
 }
-.opacidadnegra{
-	background-color: rgba(0,0,0,0.6);
-	height: 700px;
-	width: 100%;
+/*TEXT*/
+.blue{
+    color: #7CB0FF;
 }
-.opacidadazul{
-	background-color: rgba(0,0,255, 0.3);
-	height: auto;
-	width: 100%;
+.blueuser{
+    color: #0A6DBD;
 }
-.titulo1{/*tituloheader*/
-	font-size: 50px;
+#servicios h3{
+    color:#718DA8;
 }
-.martop{/*margen arriba*/
-	margin-top: 8%;
+.modal span{
+    color: red;
 }
-
-button:hover{/*hover para botones*/
-	background-color: aqua;
-}	
-.imgback2{
-	background-image: url(../image/sec-2.jpg);
-	height: 700px;
-	background-size:100% 100%;
+/*BACKGROUNDS*/
+header{
+    background-image: url("../image/large.jpg");
 }
-.backbanner{
-	background-image: url(../image/banner.jpg);
-	height: 700px;
-	background-size:100% 100%;
+#hblue, button{
+    background-color: rgba(124, 176, 255, .7);
+}
+.bgicon{
+    background-color: #50BDEA;
+}
+.bgblue{
+    background-color: #74A3DB;
+}
+.bgblack{
+    background-color: rgba(15, 21, 30, .1);
+}
+#wantit{
+    background-image: url("../image/sec-2.jpg");
+    opacity: .8;
+    background-size: 93% 100%;
+    background-position: left;
+}
+footer{
+    background-color: #2A3541;
+}
+#myModal{
+    background-image: url("../image/large.jpg");
+}
+/*HEADER*/
+header span{
+    border: .3em solid white; 
+}
+h1, h3{
+    font-family: 'Bree Serif', serif;
+}
+/*SECTIONS*/
+span{
+    border-radius: 50%;
+}
+#servicios span{
+    font-size: 5em;
+    padding: 15%;
+    box-shadow:-3px 7px 10px 0px gray;
+}
+.separador{
+   margin-top: -4em;
+}
+#arrow, .separador, .icon{
+    width: auto;
+}
+#usercomp{
+    height: 40em;
+}
+#usercomp span{
+    font-size: 2em;
+    padding: 3%;
+}
+button:hover {
+  box-shadow: 0 5px #666;
+  border: none;
+}
+/*FOOTER*/
+footer span{
+    font-size: 2em;
 }
